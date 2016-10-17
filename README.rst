@@ -1,4 +1,4 @@
-hcml
+hcby
 ===========
 
-A plugin for Hachi to detect meaningless sentences.
+A plugin for Hachi to detect spam.
