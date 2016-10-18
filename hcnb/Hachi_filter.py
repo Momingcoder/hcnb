@@ -39,17 +39,9 @@ class HachiFilter(object):
                 self.filter = pickle.load(fr)
                 fr.close()
 
-    def load_data(self, filepath):
-        data = file2list(filepath)
-        return data
-
-    def fit(self):
-        data_path = './data.csv'
-        if os.path.exists(data_path):
-            self.filter.fit(load_data(data_path))
-
     def predict(self, message, level=0):
         return self.filter.predict(message)
 
     def reset_param(self, arg):
         self.arg = arg
+        self.load_model()

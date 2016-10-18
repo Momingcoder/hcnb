@@ -14,6 +14,6 @@ setup(
     keywords = ['filter', 'Hachi', 'plugin', 'naive bayes'],
     classifiers = ['Topic :: Text Processing'],
     packages = find_packages(),
-    install_requires = ['jieba', 'numpy', 'scipy', 'scikit-learn'],
+    install_requires = ['jieba', 'scikit-learn'],
     platform = ['Windows', 'Linux', 'Mac'],
 )
