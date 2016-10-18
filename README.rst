@@ -1,7 +1,9 @@
 hcnb
 ===========
 
-A plugin for [Hachi](https://github.com/guokr/Hachi) to detect spam.
+A plugin for Hachi_ to detect spam.
+
+.. _Hachi: https://github.com/guokr/Hachi
 
 Usage
 --------
