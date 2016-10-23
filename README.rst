@@ -13,6 +13,13 @@ Usage
     > nb = NaiveBayes()
     > nb.predict(message)
 
+Configuration
+--------------
+
+::
+
+    > ('hcnb', "NaiveBayes()", 'bayes')
+
 Dependence
 -----------
 
