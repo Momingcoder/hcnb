@@ -1,6 +1,9 @@
 hcnb
 ===========
 
+.. image:: https://travis-ci.org/Momingcoder/hcnb.svg?branch=master
+    :target: https://travis-ci.org/Momingcoder/hcnb
+
 A plugin for Hachi_ to detect spam.
 
 .. _Hachi: https://github.com/guokr/Hachi

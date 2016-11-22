@@ -2,7 +2,7 @@
 # coding=utf-8
 
 import unittest
-from bayes import NaiveBayes
+from hcnb.bayes import NaiveBayes
 
 class NaiveBayesTestCase(unittest.TestCase):
     """
