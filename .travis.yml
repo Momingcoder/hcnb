@@ -6,7 +6,7 @@ python:
 
 install:
     - sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
-    - pip install scikit-learn jieba
+    - pip install numpy scipy scikit-learn jieba
 
 script:
     python test_for_nb.py
